@@ -2348,10 +2348,6 @@ footer {
 		background-color: #f1eb9c;
 		position: relative;
 		height: 300px;
-		// background-image: url(../images/convention/convention01_mv.png);
-		// background-position: 50% 27px;
-		// background-repeat: no-repeat;
-		// background-size: cover;
 		.txt {
 			position: relative;
 			z-index: 1;
@@ -2397,5 +2393,49 @@ footer {
 
 			}
 		}
+	}
+}
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 02 ▼
+//
+///////////////////////////////////////////////////*/
+
+.convention02 {
+	overflow: hidden;
+	margin-top: 45px;
+	padding-bottom: 40px;
+	text-align: center;
+	position: relative;
+	&::after {
+		content: "";
+		width: calc(100% - 3rem);
+		max-width: 650px;
+		height: 1px;
+		background: #E1E2E3;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	h2 {
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 13.5px;
+		margin-top: 24px;
+		line-height: calc(27 / 13.5);
+	}
+
+	.cv_btn {
+		margin: 28px auto 0;
+		width: 100%;
+		max-width: 329px;
+		height: 43px;
+		border-radius: 21.5px;
 	}
 }

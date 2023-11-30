@@ -2864,3 +2864,58 @@ footer {
 		}
 	}
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 02 ▼
+//
+///////////////////////////////////////////////////*/
+
+.convention02 {
+	overflow: hidden;
+	margin-top: 127px;
+	padding-bottom: 60px;
+	text-align: center;
+	position: relative;
+	&::after {
+		content: "";
+		width: 100%;
+		max-width: 1080px;
+		height: 1px;
+		background: #E1E2E3;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	h2 {
+		font-size: 55px;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 23px;
+		margin-top: 30px;
+		line-height: calc(40 / 23);
+	}
+
+	.cv_btn {
+		margin: 42px auto 0;
+		width: 450px;
+		height: 56px;
+		border-radius: 28px;
+	}
+}
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 03 ▼
+//
+///////////////////////////////////////////////////*/
+
+.convention03 {
+	
+
+
+}

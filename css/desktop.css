@@ -2128,3 +2128,48 @@ footer .copyright {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 02 ▼
+//
+///////////////////////////////////////////////////*/
+.convention02 {
+  overflow: hidden;
+  margin-top: 127px;
+  padding-bottom: 60px;
+  text-align: center;
+  position: relative;
+}
+.convention02::after {
+  content: "";
+  width: 100%;
+  max-width: 1080px;
+  height: 1px;
+  background: #E1E2E3;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.convention02 h2 {
+  font-size: 55px;
+  font-weight: bold;
+}
+.convention02 p {
+  font-size: 23px;
+  margin-top: 30px;
+  line-height: 1.7391304348;
+}
+.convention02 .cv_btn {
+  margin: 42px auto 0;
+  width: 450px;
+  height: 56px;
+  border-radius: 28px;
+}
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 03 ▼
+//
+///////////////////////////////////////////////////*/

@@ -1936,3 +1936,43 @@ footer .copyright {
   -o-object-position: 50% 0;
      object-position: 50% 0;
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 02 ▼
+//
+///////////////////////////////////////////////////*/
+.convention02 {
+  overflow: hidden;
+  margin-top: 45px;
+  padding-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+.convention02::after {
+  content: "";
+  width: calc(100% - 3rem);
+  max-width: 650px;
+  height: 1px;
+  background: #E1E2E3;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.convention02 h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.convention02 p {
+  font-size: 13.5px;
+  margin-top: 24px;
+  line-height: 2;
+}
+.convention02 .cv_btn {
+  margin: 28px auto 0;
+  width: 100%;
+  max-width: 329px;
+  height: 43px;
+  border-radius: 21.5px;
+}

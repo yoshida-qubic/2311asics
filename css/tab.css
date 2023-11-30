@@ -547,3 +547,18 @@ footer .footer_inner .copyright {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 02 ▼
+//
+///////////////////////////////////////////////////*/
+.convention02 {
+  margin-top: 60px;
+}
+.convention02 h2 {
+  font-size: 45px;
+}
+.convention02 p {
+  font-size: 18px;
+}
