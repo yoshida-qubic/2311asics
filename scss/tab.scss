@@ -832,3 +832,50 @@ footer {
 		}
 	}
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 01 ▼
+//
+///////////////////////////////////////////////////*/
+
+.convention01 {
+
+	.mv {
+		position: relative;
+		height: 380px;
+
+		.txt {
+			padding-top: 64px;
+
+			h2 {
+				font-size: 35px;
+
+				.en {
+					font-size: 120px;
+				}
+			}
+
+			p {
+				font-size: 25px;
+				margin-top: 35px;
+			}
+		}
+
+		figure {
+			width: auto;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			animation: fadeUp 1.5s ease 0s 1 both;
+			img {
+				width: auto;
+				height: 100%;
+				aspect-ratio: 1920 / 510;
+				object-fit: cover;
+
+			}
+		}
+	}
+}

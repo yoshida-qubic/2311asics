@@ -55,6 +55,12 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: "ASICS Font";
+	src: url(../fonts/ASICSFont3.0-Italic.ttf) format("truetype");
+	font-display: swap;
+}
+
 
 html {
 	color: #001e62;
@@ -2794,3 +2800,67 @@ footer {
 ///////////////////////////////////////////////////*/
 
 @media all and (-ms-high-contrast: none) {}
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 01 ▼
+//
+///////////////////////////////////////////////////*/
+
+.convention {
+	color: #001f65;
+}
+
+.convention01 {
+	overflow: hidden;
+	margin-top: 61px;
+
+	.mv {
+		background-color: #f1eb9c;
+		height: 510px;
+		position: relative;
+
+		.txt {
+			position: relative;
+			z-index: 1;
+			padding-top: 64px;
+			text-align: center;
+			animation: fadeUp 1.5s ease 0s 1 both;
+
+			h2 {
+				font-size: 42px;
+				line-height: 1;
+
+				.en {
+					display: block;
+					margin-top: 34px;
+					font-family: "ASICS Font";
+					font-weight: 400;
+					font-size: 160px;
+				}
+			}
+
+			p {
+				font-size: 36px;
+				font-weight: bold;
+				margin-top: 57px;
+			}
+		}
+
+		figure {
+			width: auto;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			animation: fadeUp 1.5s ease 0s 1 both;
+			img {
+				width: auto;
+				height: 100%;
+				aspect-ratio: 1920 / 510;
+				object-fit: cover;
+
+			}
+		}
+	}
+}

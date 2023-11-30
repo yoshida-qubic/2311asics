@@ -24,6 +24,12 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: "ASICS Font";
+	src: url(../fonts/ASICSFont3.0-Italic.ttf) format("truetype");
+	font-display: swap;
+}
+
 @keyframes fadeIn {
 	0% {opacity: 0}
 	100% {opacity: 1}
@@ -2327,4 +2333,69 @@ footer {
 
 @media screen and (orientation:landscape) {
 	/* 横向き */
+}
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 01 ▼
+//
+///////////////////////////////////////////////////*/
+
+.convention01 {
+	overflow: hidden;
+	margin-top: 60px;
+	.mv {
+		background-color: #f1eb9c;
+		position: relative;
+		height: 300px;
+		// background-image: url(../images/convention/convention01_mv.png);
+		// background-position: 50% 27px;
+		// background-repeat: no-repeat;
+		// background-size: cover;
+		.txt {
+			position: relative;
+			z-index: 1;
+			padding-top: 46px;
+			max-width: 248px;
+			margin-left: auto;
+
+			h2 {
+				font-size: 17px;
+				line-height: 1;
+
+				.en {
+					display: block;
+					margin-top: 10px;
+					font-family: "ASICS Font";
+					font-weight: 400;
+					font-size: 45px;
+					white-space: nowrap;
+				}
+			}
+
+			p {
+				font-size: 16.5px;
+				font-weight: bold;
+				line-height: 1.5;
+				margin-top: 5px;
+			}
+		}
+
+		figure {
+			width: auto;
+			height: calc(100% - 55px);
+			position: absolute;
+			top:55px;
+			left: 0;
+			animation: fadeUp 1.5s ease 0s 1 both;
+			img {
+				width: auto;
+				height: 100%;
+				aspect-ratio: 1920 / 510;
+				object-fit: cover;
+				object-position: 50% 0;
+
+			}
+		}
+	}
 }
