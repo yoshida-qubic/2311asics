@@ -2146,7 +2146,7 @@ footer .copyright {
   width: 100%;
   max-width: 1080px;
   height: 1px;
-  background: #E1E2E3;
+  background: #e1e2e3;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -2173,3 +2173,160 @@ footer .copyright {
 //            ▼ 大会向けページ 03 ▼
 //
 ///////////////////////////////////////////////////*/
+.convention03 {
+  margin-top: 60px;
+}
+.convention03 .convention03_inner {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.convention03 h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
+  text-align: center;
+}
+.convention03 .contents_inner {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+.convention03 .contents01 {
+  margin-top: 52px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #e1e2e3;
+}
+.convention03 .ttl_sub {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 2px;
+  text-align: center;
+}
+.convention03 .box {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 42px;
+       column-gap: 42px;
+}
+.convention03 .item {
+  background: #fbe5d6;
+  padding: 24px;
+}
+.convention03 .item span {
+  font-size: 16px;
+  line-height: 2;
+}
+.convention03 .item h4 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+.convention03 .item .txt {
+  margin-top: 15px;
+  font-size: 16px;
+}
+.convention03 .item .txt li {
+  display: flex;
+}
+.convention03 .item .txt li::before {
+  content: "・";
+  font-size: 16px;
+}
+.convention03 .content {
+  margin-top: 48px;
+}
+.convention03 .content + .content {
+  margin-top: 40px;
+}
+.convention03 .content .txt_line {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+}
+.convention03 .content .table {
+  margin-top: 34px;
+}
+.convention03 .content table {
+  border-collapse: collapse;
+  color: #000000;
+  width: 100%;
+}
+.convention03 .content th,
+.convention03 .content td {
+  border: solid 1px;
+  padding: 4px 20px 3px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.convention03 .content td {
+  text-align: right;
+}
+.convention03 .content .best {
+  background: #fff2cc;
+  font-weight: bold;
+}
+.convention03 .content th.best {
+  position: relative;
+}
+.convention03 .content th.best::before {
+  content: "";
+  position: absolute;
+  top: -61px;
+  right: -38px;
+  width: 116px;
+  height: 82px;
+  background: url(../images/convention/convention03_txt.png) no-repeat center/contain;
+}
+.convention03 .content .list {
+  font-size: 17px;
+  margin-top: 20px;
+  line-height: 1.4705882353;
+}
+.convention03 .content .list li {
+  display: flex;
+}
+.convention03 .content .list li span {
+  flex-shrink: 0;
+}
+.convention03 .txt_bg_gray {
+  background: #e1e2e3;
+  padding: 37px 65px;
+  margin-top: 48px;
+}
+.convention03 .txt_bg_gray p {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.6470588235;
+}
+.convention03 .txt_bg_gray ul {
+  margin-top: 16px;
+}
+.convention03 .txt_bg_gray ul li {
+  display: flex;
+  font-size: 24px;
+  line-height: 1.3333333333;
+}
+.convention03 .contents01 figure {
+  margin-top: -19px;
+}
+.convention03 .contents02 {
+  margin-top: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e1e2e3;
+}
+.convention03 .contents02 .txt {
+  font-size: 21px;
+  line-height: 1.7;
+  margin-top: 40px;
+}
+.convention03 .contents02 figure {
+  margin-top: 15px;
+}

@@ -562,3 +562,70 @@ footer .footer_inner .copyright {
 .convention02 p {
   font-size: 18px;
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 03 ▼
+//
+///////////////////////////////////////////////////*/
+.convention03 {
+  margin-top: 40px;
+}
+.convention03 h2 {
+  font-size: 25px;
+  text-decoration-thickness: 2px;
+}
+.convention03 .contents01 {
+  margin-top: 30px;
+  padding-bottom: 35px;
+}
+.convention03 .ttl_sub {
+  font-size: 20px;
+  text-decoration-thickness: 1px;
+}
+.convention03 .box {
+  margin-top: 30px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.convention03 .item {
+  padding: 15px 10px;
+}
+.convention03 .item h4 {
+  font-size: 16px;
+}
+.convention03 .item .txt {
+  font-size: 15px;
+}
+.convention03 .item .txt li::before {
+  font-size: 15px;
+}
+.convention03 .content .txt_line {
+  font-size: 18px;
+}
+.convention03 .content th, .convention03 .content td {
+  padding: 4px 10px 3px;
+  font-size: 18px;
+}
+.convention03 .content .list {
+  font-size: 15px;
+}
+.convention03 .txt_bg_gray {
+  padding: 20px 45px;
+}
+.convention03 .txt_bg_gray p {
+  font-size: 24px;
+}
+.convention03 .txt_bg_gray ul li {
+  font-size: 20px;
+}
+.convention03 .contents01 figure {
+  margin-top: -5px;
+}
+.convention03 .contents02 .txt {
+  margin-top: 30px;
+  font-size: 18px;
+}
+.convention03 .contents02 figure {
+  margin-top: 15px;
+}

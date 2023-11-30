@@ -897,3 +897,92 @@ footer {
 		font-size: 18px;
 	}
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 03 ▼
+//
+///////////////////////////////////////////////////*/
+
+.convention03 {
+	margin-top: 40px;
+
+	h2 {
+		font-size: 25px;
+		text-decoration-thickness: 2px;
+	}
+
+	.contents01 {
+		margin-top: 30px;
+		padding-bottom: 35px;
+	}
+
+	.ttl_sub {
+		font-size: 20px;
+		text-decoration-thickness: 1px;
+	}
+
+	.box {
+		margin-top: 30px;
+		column-gap: 15px;
+	}
+
+	.item {
+		padding: 15px 10px;
+
+		h4 {
+			font-size: 16px;
+		}
+
+		.txt {
+			font-size: 15px;
+
+			li {
+
+				&::before {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+
+	.content {
+
+		.txt_line {
+			font-size: 18px;
+		}
+
+		th,td {
+			padding: 4px 10px 3px;
+			font-size: 18px;
+	}
+	.list {
+		font-size: 15px;
+	}
+	}
+
+	.txt_bg_gray {
+		padding: 20px 45px;
+		p {
+			font-size: 24px;
+		}
+		ul li {
+			font-size: 20px;
+		}
+	}
+
+	.contents01 figure {
+		margin-top: -5px;
+	}
+
+	.contents02 {
+		.txt {
+			margin-top: 30px;
+			font-size: 18px;
+		}
+		figure {
+			margin-top: 15px;
+		}
+	}
+
+}
