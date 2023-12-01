@@ -2154,3 +2154,97 @@ footer .copyright {
   margin-top: 20px;
   width: calc(100% + 10px);
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 04 ▼
+//
+///////////////////////////////////////////////////*/
+.convention04 {
+  margin-top: 40px;
+}
+.convention04 h2 {
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+  text-align: center;
+}
+.convention04 .contents {
+  margin-top: 28px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #e1e2e3;
+}
+.convention04 .ttl_sub {
+  font-size: 16.5px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 1px;
+  text-align: center;
+}
+.convention04 .txt {
+  margin-top: 18px;
+}
+.convention04 .txt p {
+  font-size: 13.5px;
+  line-height: 2;
+}
+.convention04 .content {
+  width: 100%;
+  margin-top: 24px;
+}
+.convention04 .content h4 {
+  font-size: 16.5px;
+  display: flex;
+  align-items: baseline;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.convention04 .content h4::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #001f65;
+}
+.convention04 .content .txt_box {
+  background: #ddeaf6;
+  border: 1px solid #001f65;
+  padding: 14px;
+  margin-top: 20px;
+}
+.convention04 .content .txt_box ul li {
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  font-size: 15px;
+}
+.convention04 .content .txt_box ul li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #001f65;
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+.convention04 .content .txt_box ul li + li {
+  margin-top: 10px;
+}
+.convention04 .content .txt_box p {
+  font-size: 15px;
+  text-align: right;
+}
+.convention04 .content .cv_btn {
+  margin: 20px auto 0;
+  width: 100%;
+  max-width: 329px;
+  height: 64px;
+  border-radius: 21.5px;
+}
+.convention04 .content .cv_btn a {
+  line-height: 1.5;
+  font-size: 13.5px;
+  text-align: center;
+}

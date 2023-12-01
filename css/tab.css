@@ -629,3 +629,69 @@ footer .footer_inner .copyright {
 .convention03 .contents02 figure {
   margin-top: 15px;
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 04 ▼
+//
+///////////////////////////////////////////////////*/
+.convention04 {
+  margin-top: 40px;
+}
+.convention04 h2 {
+  font-size: 25px;
+  text-decoration-thickness: 2px;
+}
+.convention04 .ttl_sub {
+  font-size: 20px;
+  text-decoration-thickness: 1px;
+}
+.convention04 .txt {
+  max-width: 1080px;
+  margin: 30px auto 0;
+}
+.convention04 .txt p {
+  font-size: 18px;
+}
+.convention04 .content h4 {
+  font-size: 18px;
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.convention04 .content h4::before {
+  width: 10px;
+  height: 10px;
+}
+.convention04 .content .txt_box {
+  padding: 15px 20px;
+  margin-top: 15px;
+}
+.convention04 .content .txt_box ul li {
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  font-size: 18px;
+}
+.convention04 .content .txt_box ul li::before {
+  width: 10px;
+  height: 10px;
+  margin-top: 14px;
+  flex-shrink: 0;
+}
+.convention04 .content .txt_box ul li + li {
+  margin-top: 10px;
+}
+.convention04 .content .txt_box p {
+  font-size: 18px;
+}
+.convention04 .content .cv_btn {
+  margin: 44px auto 0;
+  width: 450px;
+  height: 73px;
+  border-radius: 28px;
+}
+.convention04 .content .cv_btn a {
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: center;
+}

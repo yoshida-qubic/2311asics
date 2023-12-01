@@ -2680,3 +2680,113 @@ footer {
 	}
 
 }
+
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 04 ▼
+//
+///////////////////////////////////////////////////*/
+
+.convention04 {
+	margin-top: 40px;
+
+	h2 {
+		font-size: 21px;
+		font-weight: bold;
+		text-decoration: underline;
+		text-underline-offset: 5px;
+		text-decoration-thickness: 1px;
+		text-align: center;
+	}
+
+	.contents {
+		margin-top: 28px;
+		padding-bottom: 28px;
+		border-bottom: 1px solid #e1e2e3;
+	}
+
+	.ttl_sub {
+		font-size: 16.5px;
+		font-weight: bold;
+		text-decoration: underline;
+		text-underline-offset: 5px;
+		text-decoration-thickness: 1px;
+		text-align: center;
+	}
+
+	.txt {
+		margin-top: 18px;
+
+		p {
+			font-size: 13.5px;
+			line-height: calc(27 / 13.5);
+		}
+	}
+
+	.content {
+		width: 100%;
+		margin-top: 24px;
+
+		h4 {
+			font-size: 16.5px;
+			display: flex;
+			align-items: baseline;
+			column-gap: 8px;
+
+			&::before {
+				content: "";
+				width: 10px;
+				height: 10px;
+				background: #001f65;
+			}
+		}
+
+		.txt_box {
+			background: #ddeaf6;
+			border: 1px solid #001f65;
+			padding: 14px;
+			margin-top: 20px;
+
+			ul {
+				li {
+					display: flex;
+					column-gap: 8px;
+					font-size: 15px;
+
+					&::before {
+						content: "";
+						width: 10px;
+						height: 10px;
+						border-radius: 50%;
+						background: #001f65;
+						margin-top: 10px;
+						flex-shrink: 0;
+					}
+
+					&+li {
+						margin-top: 10px;
+					}
+				}
+			}
+
+			p {
+				font-size: 15px;
+				text-align: right;
+			}
+		}
+
+		.cv_btn {
+			margin: 20px auto 0;
+			width: 100%;
+			max-width: 329px;
+			height: 64px;
+			border-radius: 21.5px;
+
+			a {
+				line-height: 1.5;
+				font-size: 13.5px;
+				text-align: center;
+			}
+		}
+	}
+}

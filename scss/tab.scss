@@ -984,5 +984,80 @@ footer {
 			margin-top: 15px;
 		}
 	}
+}
 
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 04 ▼
+//
+///////////////////////////////////////////////////*/
+
+.convention04 {
+	margin-top: 40px;
+
+	h2 {
+		font-size: 25px;
+		text-decoration-thickness: 2px;
+	}
+
+	.ttl_sub {
+		font-size: 20px;
+		text-decoration-thickness: 1px;
+	}
+
+	.txt {
+		max-width: 1080px;
+		margin: 30px auto 0;
+		p {
+			font-size: 18px;
+		}
+	}
+
+	.content {
+
+		h4 {
+			font-size: 18px;
+			display: flex;
+			column-gap: 8px;
+			&::before {
+				width: 10px;
+				height: 10px;
+			}
+		}
+
+		.txt_box {
+			padding: 15px 20px;
+			margin-top: 15px;
+			ul {
+				li {
+					column-gap: 8px;
+					font-size: 18px;
+					&::before {
+						width: 10px;
+						height: 10px;
+						margin-top: 14px;
+						flex-shrink: 0;
+					}
+					& + li {
+						margin-top: 10px;
+					}
+				}
+			}
+			p {
+				font-size: 18px;
+			}
+		}
+
+		.cv_btn {
+			margin: 44px auto 0;
+			width: 450px;
+			height: 73px;
+			border-radius: 28px;
+			a {
+				line-height: 1.5;
+				font-size: 16px;
+				text-align: center;
+			}
+		}
+	}
 }
