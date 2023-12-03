@@ -907,6 +907,10 @@ footer {
 .convention03 {
 	margin-top: 40px;
 
+	.contents_inner {
+		width: 100%;
+	}
+
 	h2 {
 		font-size: 25px;
 		text-decoration-thickness: 2px;
@@ -1138,7 +1142,7 @@ footer {
 ///////////////////////////////////////////////////*/
 
 .convention06 {
-	margin-top: 40px;
+	padding-top: 40px;
 
 	h2 {
 		font-size: 25px;
