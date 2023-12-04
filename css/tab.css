@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*///////////////////////////////////////////////////
 //
 //            ▼ 共通 ▼
@@ -19,11 +18,9 @@
 header .header_in {
   padding: 0 20.7px 0 43.2px;
 }
-
 header .logo a img {
-  height: 45px;
+  height: 32px;
 }
-
 header nav ul li a {
   padding: 0 13px;
 }
@@ -36,16 +33,13 @@ header nav ul li a {
 footer .footer_inner {
   display: block;
 }
-
 footer .footer_inner ul {
   justify-content: flex-start;
 }
-
 footer .footer_inner ul li a {
   padding: 0 7px;
   font-size: 11px;
 }
-
 footer .footer_inner .copyright {
   font-size: 11px;
   margin-top: 15px;
@@ -60,68 +54,55 @@ footer .footer_inner .copyright {
 .top01 .mv02 {
   height: 352px;
 }
-
 .top01 .mv01::before,
 .top01 .mv02::before {
   transform: translate(-60.4%, 0);
   background-size: contain;
 }
-
 .top01 .mv01 .txt,
 .top01 .mv02 .txt {
   padding-top: 40px;
 }
-
 .top01 .mv01 .txt h2,
 .top01 .mv02 .txt h2 {
   font-size: 24.64px;
 }
-
 .top01 .mv01 .txt h2 .en,
 .top01 .mv02 .txt h2 .en {
   margin-top: -2px;
 }
-
 .top01 .mv01 .txt p,
 .top01 .mv02 .txt p {
   font-size: 16.89px;
   margin-top: -14px;
 }
-
 .top01 .mv01 .cv_btn,
 .top01 .mv02 .cv_btn {
   margin-top: 28px;
 }
-
 .top01 .mv01 .mv01_inner figure {
   width: 128px;
   top: 25px;
   right: -20px;
 }
-
 .top01 .mv01 .mv01_inner .txt h2 .en svg {
   width: 552.6px;
 }
-
 .top01 .mv02::before {
   left: 500px;
   transform: translate(-71%, 0);
 }
-
 .top01 .mv02 .mv02_inner figure {
   width: 279px;
   top: 36px;
   left: -27px;
 }
-
 .top01 .mv02 .txt h2 .en svg {
   width: 649px;
 }
-
 .top01 .mv02 .txt p {
   margin-top: 8px;
 }
-
 .top01 .mv02 .cv_btn {
   margin-top: 32px;
 }
@@ -135,11 +116,9 @@ footer .footer_inner .copyright {
   font-size: 16px;
   margin-top: 37.5px;
 }
-
 .top02 .table {
   gap: 0 38px;
 }
-
 .top02 .table:before {
   position: absolute;
   top: 77px;
@@ -149,26 +128,21 @@ footer .footer_inner .copyright {
   height: 1px;
   background: #e1e2e3;
 }
-
 .top02 .table .table_item.th {
   font-size: 19.5px;
   margin-bottom: 20px;
 }
-
 .top02 .table .table_item.normal {
   font-size: 16.5px;
 }
-
 .top02 .table .table_item.td {
   font-size: 16.5px;
   height: 90px;
 }
-
 .top02 .table .table_item.td a {
   height: 44px;
   font-size: 12.8px;
 }
-
 .top02 .table .table_item.td a .arrow svg {
   width: 7.76px;
 }
@@ -183,25 +157,20 @@ footer .footer_inner .copyright {
   padding: 30px 0;
   background-size: cover;
 }
-
 .top03 .section_ttl {
   font-size: 22.4px;
 }
-
 .top03 .section_ttl .en {
   margin-top: -19px;
 }
-
 .top03 .section_ttl .en svg {
   width: 514.5px;
 }
-
 .top03 p {
   font-size: 15.36px;
   margin-top: -27px;
   line-height: 1.6;
 }
-
 .top03 .cv_btn {
   margin: 18px auto 0;
 }
@@ -214,7 +183,6 @@ footer .footer_inner .copyright {
 .top06 ul li {
   width: 300px;
 }
-
 .top06 ul li:first-of-type {
   margin-right: 65px;
 }
@@ -227,36 +195,28 @@ footer .footer_inner .copyright {
 .lower_mv {
   height: 352px;
 }
-
 .lower_mv::before {
   background-size: contain;
 }
-
 .lower_mv .lower_mv_inner .txt {
   padding-top: 40px;
 }
-
 .lower_mv .lower_mv_inner .txt h1 {
   font-size: 22.4px;
 }
-
 .lower_mv .lower_mv_inner .txt h1 .en {
   margin-top: -7px;
 }
-
 .lower_mv .lower_mv_inner .txt h1 .en svg {
   width: 502.4px;
 }
-
 .lower_mv .lower_mv_inner .txt p {
   font-size: 22.4px;
   margin-top: -20px;
 }
-
 .lower_mv .lower_mv_inner .txt p .small {
   font-size: 15.26px;
 }
-
 .lower_mv .lower_mv_inner .cv_btn {
   margin-top: 21px;
 }
@@ -264,11 +224,9 @@ footer .footer_inner .copyright {
 .lower_common01 .box {
   gap: 0 48px;
 }
-
 .lower_common01 .box .item h3 {
   font-size: 19.2px;
 }
-
 .lower_common01 .box .item .txt {
   font-size: 14px;
 }
@@ -276,55 +234,43 @@ footer .footer_inner .copyright {
 .lower_common02 .section_ttl img {
   width: 278.25px;
 }
-
 .lower_common02 h3 {
   font-size: 18px;
 }
-
 .lower_common02 .txt01 {
   font-size: 15px;
 }
-
 .lower_common02 .img_wrap .figure_wrap:nth-of-type(1) figure {
   top: -7px;
   left: -3px;
 }
-
 .lower_common02 .img_wrap .figure_wrap:nth-of-type(1) h4 {
   top: 0;
 }
-
 .lower_common02 .img_wrap .figure_wrap:nth-of-type(2) figure {
   top: 6px;
   left: -17px;
 }
-
 .lower_common02 .img_wrap .figure_wrap:nth-of-type(2) h4 {
   top: 4px;
 }
-
 .lower_common02 .img_wrap .figure_wrap:nth-of-type(5) figure {
   top: 14px;
   left: 0;
 }
-
 .lower_common02 .img_wrap .figure_wrap:nth-of-type(5) h4 {
   left: 6px;
 }
-
 .lower_common02 .img_wrap .figure_wrap:nth-of-type(5) figure {
   top: 11px;
   left: 0;
 }
-
 .lower_common02 .img_wrap .figure_wrap h4 {
   font-size: 13px;
 }
-
 .lower_common02 .txt02 {
   font-size: 14px;
 }
-
 .lower_common02 a {
   font-size: 14px;
 }
@@ -333,43 +279,30 @@ footer .footer_inner .copyright {
   font-size: 25.6px;
   margin-top: 17px;
 }
-
 .lower_common03 .txt01 .small {
   font-size: 16px;
 }
-
 .lower_common03 .txt01 .middle {
   font-size: 19.2px;
 }
-
 .lower_common03 .box .item {
   width: 130px;
 }
-
-.lower_common03 .box .item:first-of-type,
-.lower_common03 .box .item:nth-of-type(2),
-.lower_common03 .box .item:nth-of-type(3),
-.lower_common03 .box .item:nth-of-type(5),
-.lower_common03 .box .item:nth-of-type(6) {
+.lower_common03 .box .item:first-of-type, .lower_common03 .box .item:nth-of-type(2), .lower_common03 .box .item:nth-of-type(3), .lower_common03 .box .item:nth-of-type(5), .lower_common03 .box .item:nth-of-type(6) {
   margin-right: 8%;
 }
-
 .lower_common03 .box .item .txt h3 {
   font-size: 16px;
 }
-
 .lower_common03 .box .item .txt p {
   font-size: 23px;
 }
-
 .lower_common03 .box .item .txt p .small {
   font-size: 11px;
 }
-
 .lower_common03 .note {
   font-size: 12px;
 }
-
 .lower_common03 .note p {
   padding: 3px 0 0 5px;
 }
@@ -377,23 +310,18 @@ footer .footer_inner .copyright {
 .lower_common04 .center_txt {
   font-size: 19.2px;
 }
-
 .lower_common04 .box {
   gap: 35.5px 40.2px;
 }
-
 .lower_common04 .box .item .txt {
   margin-top: 20.8px;
 }
-
 .lower_common04 .box .item .txt h3 {
   font-size: 17px;
 }
-
 .lower_common04 .box .item .txt ul {
   margin-top: 10.4px;
 }
-
 .lower_common04 .box .item .txt ul li {
   font-size: 13px;
 }
@@ -405,7 +333,6 @@ footer .footer_inner .copyright {
 .lower_common06 .box .item .question {
   padding: 20px;
 }
-
 .lower_common06 .box .item .question .letter {
   width: 40px;
   min-width: 40px;
@@ -413,24 +340,19 @@ footer .footer_inner .copyright {
   min-height: 40px;
   font-size: 15.36px;
 }
-
 .lower_common06 .box .item .question h3 {
   font-size: 15.36px;
 }
-
 .lower_common06 .box .item .question .arrow {
   top: 50%;
   right: 25px;
 }
-
 .lower_common06 .box .item .question .arrow svg {
   width: 15.2px;
 }
-
 .lower_common06 .box .item .answer .answer_inner {
   padding: 17.6px 20px 40px;
 }
-
 .lower_common06 .box .item .answer .letter {
   width: 40px;
   min-width: 40px;
@@ -439,19 +361,15 @@ footer .footer_inner .copyright {
   font-size: 15.36px;
   margin-right: 23px;
 }
-
 .lower_common06 .box .item .answer .p_wrap {
   font-size: 15.36px;
 }
-
 .lower_common06 .box .item .answer .p_wrap .case_list {
   margin-top: 30.4px;
 }
-
 .lower_common06 .note {
   font-size: 12px;
 }
-
 .lower_common06 .note p {
   padding: 3px 0 0 5px;
 }
@@ -464,7 +382,6 @@ footer .footer_inner .copyright {
 .daily_runner01::before {
   transform: translate(-60.4%, 0);
 }
-
 .daily_runner01 .lower_mv_inner figure {
   width: 128px;
   top: 25px;
@@ -479,24 +396,19 @@ footer .footer_inner .copyright {
 .daily_runner04 h3 {
   font-size: 20px;
 }
-
 .daily_runner04 .box .txt {
   padding-right: 24px;
 }
-
 .daily_runner04 .box .txt h4 {
   font-size: 20px;
 }
-
 .daily_runner04 .box .txt p {
   font-size: 15px;
   margin-top: 33px;
 }
-
 .daily_runner04 .box .img_wrap {
   padding-left: 24px;
 }
-
 .daily_runner04 .box .img_wrap figure:first-of-type {
   margin-bottom: 33px;
 }
@@ -510,21 +422,17 @@ footer .footer_inner .copyright {
   left: 500px;
   background-position: right center;
 }
-
 .event_runner01 .lower_mv_inner figure {
   width: 279px;
   top: 36px;
   left: -27px;
 }
-
 .event_runner01 .lower_mv_inner .txt p {
   margin-top: 5px;
 }
-
 .event_runner01 .lower_mv_inner .txt h1 .en {
   margin-top: -7px;
 }
-
 .event_runner01 .lower_mv_inner .txt h1 .en svg {
   width: 590px;
 }
@@ -537,18 +445,12 @@ footer .footer_inner .copyright {
 .event_runner04 .box .item {
   width: 30%;
 }
-
-.event_runner04 .box .item:first-of-type,
-.event_runner04 .box .item:nth-of-type(2),
-.event_runner04 .box .item:nth-of-type(3),
-.event_runner04 .box .item:nth-of-type(4) {
+.event_runner04 .box .item:first-of-type, .event_runner04 .box .item:nth-of-type(2), .event_runner04 .box .item:nth-of-type(3), .event_runner04 .box .item:nth-of-type(4) {
   margin-right: 0;
 }
-
 .event_runner04 .box .item:nth-of-type(5) {
   margin-right: 0;
 }
-
 .event_runner04 .box .item .txt h3 {
   font-size: 15px;
 }
@@ -561,43 +463,34 @@ footer .footer_inner .copyright {
 .event_runner06 .center_txt {
   font-size: 16px;
 }
-
 .event_runner06 .box .box_inner .left h3 {
   font-size: 15px;
 }
-
 .event_runner06 .box .box_inner .left p {
   font-size: 10px;
 }
-
 .event_runner06 .box .box_inner .right .right_inner .item .txt {
   padding: 7px 12px;
   border: 3px solid #001e62;
 }
-
 .event_runner06 .box .box_inner .right .right_inner .item .txt::before {
   bottom: -22px;
   margin-left: -11px;
   border: 11px solid transparent;
   border-top: 12px solid #fffeff;
 }
-
 .event_runner06 .box .box_inner .right .right_inner .item .txt::after {
   bottom: -29px;
 }
-
 .event_runner06 .box .box_inner .right .right_inner .item .txt h4 {
   font-size: 10px;
 }
-
 .event_runner06 .box .box_inner .right .right_inner .item .circle {
   width: 6px;
   height: 6px;
   margin: 28px auto 18px;
 }
-
-.event_runner06 .box .box_inner .right .right_inner .item .circle::before,
-.event_runner06 .box .box_inner .right .right_inner .item .circle::after {
+.event_runner06 .box .box_inner .right .right_inner .item .circle::before, .event_runner06 .box .box_inner .right .right_inner .item .circle::after {
   width: 6px;
   height: 6px;
   border-radius: 50%;
@@ -605,15 +498,12 @@ footer .footer_inner .copyright {
   left: 0;
   content: "";
 }
-
 .event_runner06 .box .box_inner .right .right_inner .item .circle::before {
   top: -12px;
 }
-
 .event_runner06 .box .box_inner .right .right_inner .item .circle::after {
   top: 12px;
 }
-
 .event_runner06 .box .box_inner .right .period {
   font-size: 16px;
   bottom: 4px;
@@ -621,26 +511,309 @@ footer .footer_inner .copyright {
 
 /*///////////////////////////////////////////////////
 //
-//            ▼ イベントランナー保険08 ▼
+//            ▼ 大会向けページ 01 ▼
 //
 ///////////////////////////////////////////////////*/
+.convention01 .mv {
+  position: relative;
+  height: 380px;
+}
+.convention01 .mv .txt {
+  padding-top: 64px;
+}
+.convention01 .mv .txt h2 {
+  font-size: 35px;
+}
+.convention01 .mv .txt h2 .en {
+  font-size: 120px;
+}
+.convention01 .mv .txt p {
+  font-size: 25px;
+  margin-top: 35px;
+}
+.convention01 .mv figure {
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
+          animation: fadeUp 1.5s ease 0s 1 both;
+}
+.convention01 .mv figure img {
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1920/510;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 02 ▼
+//
+///////////////////////////////////////////////////*/
+.convention02 {
+  margin-top: 60px;
+}
+.convention02 h2 {
+  font-size: 45px;
+}
+.convention02 p {
+  font-size: 18px;
+}
 
-table {
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 03 ▼
+//
+///////////////////////////////////////////////////*/
+.convention03 {
+  margin-top: 40px;
+}
+.convention03 .contents_inner {
   width: 100%;
-  border: 1px solid;
+}
+.convention03 h2 {
+  font-size: 25px;
+  text-decoration-thickness: 2px;
+}
+.convention03 .contents01 {
+  margin-top: 30px;
+  padding-bottom: 35px;
+}
+.convention03 .ttl_sub {
+  font-size: 20px;
+  text-decoration-thickness: 1px;
+}
+.convention03 .box {
+  margin-top: 30px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.convention03 .item {
+  padding: 15px 10px;
+}
+.convention03 .item h4 {
+  font-size: 16px;
+}
+.convention03 .item .txt {
+  font-size: 15px;
+}
+.convention03 .item .txt li::before {
+  font-size: 15px;
+}
+.convention03 .content .txt_line {
+  font-size: 18px;
+}
+.convention03 .content th, .convention03 .content td {
+  padding: 4px 10px 3px;
+  font-size: 18px;
+}
+.convention03 .content .list {
+  font-size: 15px;
+}
+.convention03 .txt_bg_gray {
+  padding: 20px 45px;
+}
+.convention03 .txt_bg_gray p {
+  font-size: 24px;
+}
+.convention03 .txt_bg_gray ul li {
+  font-size: 20px;
+}
+.convention03 .contents01 figure {
+  margin-top: -5px;
+}
+.convention03 .contents02 .txt {
+  margin-top: 30px;
+  font-size: 18px;
+}
+.convention03 .contents02 figure {
+  margin-top: 15px;
 }
 
-table th {
-  background-color: #e1e2e3;
-  /*背景色*/
-  padding: 10px 10px;
-  border: 1px solid;
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 04 ▼
+//
+///////////////////////////////////////////////////*/
+.convention04 {
+  margin-top: 40px;
+}
+.convention04 h2 {
+  font-size: 25px;
+  text-decoration-thickness: 2px;
+}
+.convention04 .ttl_sub {
+  font-size: 20px;
+  text-decoration-thickness: 1px;
+}
+.convention04 .txt {
+  max-width: 1080px;
+  margin: 30px auto 0;
+}
+.convention04 .txt p {
+  font-size: 18px;
+}
+.convention04 .content h4 {
+  font-size: 18px;
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.convention04 .content h4::before {
+  width: 10px;
+  height: 10px;
+}
+.convention04 .content .txt_box {
+  padding: 15px 20px;
+  margin-top: 15px;
+}
+.convention04 .content .txt_box ul li {
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+  font-size: 18px;
+}
+.convention04 .content .txt_box ul li::before {
+  width: 10px;
+  height: 10px;
+  margin-top: 14px;
+  flex-shrink: 0;
+}
+.convention04 .content .txt_box ul li + li {
+  margin-top: 10px;
+}
+.convention04 .content .txt_box p {
+  font-size: 18px;
+}
+.convention04 .content .cv_btn {
+  margin: 44px auto 0;
+  width: 450px;
+  height: 73px;
+  border-radius: 28px;
+}
+.convention04 .content .cv_btn a {
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: center;
 }
 
-table td {
-  padding: 10px 10px;
-  border: 1px solid;
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 05 ▼
+//
+///////////////////////////////////////////////////*/
+.convention05 {
+  margin-top: 40px;
+}
+.convention05 h2 {
+  font-size: 25px;
+  text-decoration-thickness: 2px;
+}
+.convention05 .ttl_sub {
+  font-size: 20px;
+  text-decoration-thickness: 1px;
+}
+.convention05 .txt p {
+  font-size: 18px;
+}
+.convention05 .content h4 {
+  font-size: 18px;
+  display: flex;
+  -moz-column-gap: 8px;
+       column-gap: 8px;
+}
+.convention05 .content h4::before {
+  width: 10px;
+  height: 10px;
+}
+.convention05 .content .txt_box {
+  padding: 15px 20px;
+  margin-top: 15px;
+}
+.convention05 .content .txt_box ul {
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.convention05 .content .txt_box ul + ul {
+  margin-top: 10px;
+}
+.convention05 .content .txt_box ul li {
+  font-size: 15px;
+}
+.convention05 .content .txt_box ul li::before {
+  width: 8px;
+  height: 8px;
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+.convention05 .content .txt_box p {
+  font-size: 15px;
+}
+.convention05 .content .content_txt {
+  margin-top: 20px;
+}
+.convention05 .content .content_txt p {
+  font-size: 16px;
 }
 
-/*# sourceMappingURL=tab.css.map */
+/*///////////////////////////////////////////////////
+//
+//            ▼ 大会向けページ 06 ▼
+//
+///////////////////////////////////////////////////*/
+.convention06 {
+  padding-top: 40px;
+}
+.convention06 h2 {
+  font-size: 25px;
+  text-decoration-thickness: 2px;
+}
+.convention06 .box {
+  margin-top: 0;
+}
+.convention06 .item {
+  width: 40%;
+}
+.convention06 .item h3 {
+  font-size: 32px;
+}
+.convention06 .item_txt {
+  font-size: 18px;
+}
+.convention06 .item_txt li::before {
+  font-size: 18px;
+}
+.convention06 .item_sm {
+  width: 20%;
+}
+.convention06 .item_sm h3 {
+  font-size: 18px;
+}
+.convention06 .lists {
+  margin-top: 0;
+}
+.convention06 .lists li {
+  font-size: 20px;
+}
+.convention06 .lists li span {
+  font-size: 16px;
+}
+.convention06 .txt {
+  margin-top: 44px;
+}
+.convention06 .txt p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.convention06 .cv_btn {
+  margin: 44px auto 0;
+  width: 450px;
+  height: 56px;
+  border-radius: 28px;
+}
+.convention06 .cv_btn a {
+  font-size: 16px;
+}
