@@ -2848,7 +2848,7 @@ footer {
 			}
 
 			p {
-				font-size: 36px;
+				font-size: 34px;
 				font-weight: bold;
 				margin-top: 57px;
 			}
@@ -2927,7 +2927,7 @@ footer {
 	margin-top: 60px;
 
 	.convention03_inner {
-		width: 90%;
+		width: 100%;
 		margin: 0 auto;
 		max-width: 1280px;
 	}
@@ -3356,7 +3356,7 @@ footer {
 ///////////////////////////////////////////////////*/
 
 .convention06 {
-	padding-top: 48px;
+	margin-top: 48px;
 	padding-bottom: 78.2px;
 
 	h2 {
@@ -3368,70 +3368,9 @@ footer {
 		text-align: center;
 	}
 
-	.box {
+	.plan {
 		margin-top: 52px;
-		display: flex;
-		column-gap: 6px;
-		padding: 67px 20px 70px;
-		background: url(../images/convention/convention06_bg.png) no-repeat center / contain;
 	}
-
-	.box_wrap {
-		display: contents;
-	}
-
-	.item {
-		width: calc(524 / 1240 * 100%);
-		background: rgba(#a9ddba, .9);
-		border-radius: 57px;
-		padding: 24px 15.5px;
-
-		h3 {
-			font-size: 39.5px;
-			font-weight: bold;
-			line-height: 1;
-			padding-bottom: 22px;
-			border-bottom: 1px solid #001f65;
-			text-align: center;
-		}
-	}
-
-	.item_txt {
-		margin-top: 7px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		font-size: 23.5px;
-		line-height: calc(38.4 / 23.5);
-		font-weight: 500;
-		min-height: 190px;
-
-		li {
-			display: flex;
-
-			&::before {
-				content: "・";
-				font-size: 23.5px;
-				font-weight: 500;
-			}
-		}
-	}
-
-		.item_sm {
-			width: calc(178 / 1240 * 100%);
-			border-radius: 32px;
-			padding: 33px 9.5px;
-
-			h3 {
-				font-size: 25.5px;
-				padding-bottom: 28px;
-
-			}
-
-			.item_txt {
-				align-items: center;
-			}
-		}
 
 		.lists {
 			margin: 100px auto 0;
