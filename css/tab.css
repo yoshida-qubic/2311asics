@@ -764,32 +764,14 @@ footer .footer_inner .copyright {
 //
 ///////////////////////////////////////////////////*/
 .convention06 {
-  padding-top: 40px;
+  margin-top: 40px;
 }
 .convention06 h2 {
   font-size: 25px;
   text-decoration-thickness: 2px;
 }
-.convention06 .box {
+.convention06 .plan {
   margin-top: 0;
-}
-.convention06 .item {
-  width: 40%;
-}
-.convention06 .item h3 {
-  font-size: 32px;
-}
-.convention06 .item_txt {
-  font-size: 18px;
-}
-.convention06 .item_txt li::before {
-  font-size: 18px;
-}
-.convention06 .item_sm {
-  width: 20%;
-}
-.convention06 .item_sm h3 {
-  font-size: 18px;
 }
 .convention06 .lists {
   margin-top: 0;

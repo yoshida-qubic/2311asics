@@ -2108,7 +2108,7 @@ footer .copyright {
   font-size: 160px;
 }
 .convention01 .mv .txt p {
-  font-size: 36px;
+  font-size: 34px;
   font-weight: bold;
   margin-top: 57px;
 }
@@ -2177,7 +2177,7 @@ footer .copyright {
   margin-top: 60px;
 }
 .convention03 .convention03_inner {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   max-width: 1280px;
 }
@@ -2540,7 +2540,7 @@ footer .copyright {
 //
 ///////////////////////////////////////////////////*/
 .convention06 {
-  padding-top: 48px;
+  margin-top: 48px;
   padding-bottom: 78.2px;
 }
 .convention06 h2 {
@@ -2551,60 +2551,8 @@ footer .copyright {
   text-decoration-thickness: 3px;
   text-align: center;
 }
-.convention06 .box {
+.convention06 .plan {
   margin-top: 52px;
-  display: flex;
-  -moz-column-gap: 6px;
-       column-gap: 6px;
-  padding: 67px 20px 70px;
-  background: url(../images/convention/convention06_bg.png) no-repeat center/contain;
-}
-.convention06 .box_wrap {
-  display: contents;
-}
-.convention06 .item {
-  width: 42.2580645161%;
-  background: rgba(169, 221, 186, 0.9);
-  border-radius: 57px;
-  padding: 24px 15.5px;
-}
-.convention06 .item h3 {
-  font-size: 39.5px;
-  font-weight: bold;
-  line-height: 1;
-  padding-bottom: 22px;
-  border-bottom: 1px solid #001f65;
-  text-align: center;
-}
-.convention06 .item_txt {
-  margin-top: 7px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 23.5px;
-  line-height: 1.6340425532;
-  font-weight: 500;
-  min-height: 190px;
-}
-.convention06 .item_txt li {
-  display: flex;
-}
-.convention06 .item_txt li::before {
-  content: "・";
-  font-size: 23.5px;
-  font-weight: 500;
-}
-.convention06 .item_sm {
-  width: 14.3548387097%;
-  border-radius: 32px;
-  padding: 33px 9.5px;
-}
-.convention06 .item_sm h3 {
-  font-size: 25.5px;
-  padding-bottom: 28px;
-}
-.convention06 .item_sm .item_txt {
-  align-items: center;
 }
 .convention06 .lists {
   margin: 100px auto 0;
