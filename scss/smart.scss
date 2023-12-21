@@ -2887,12 +2887,12 @@ footer {
 				font-size: 13.5px;
 			}
 		}
-
+		
 		.cv_btn {
 			margin: 20px auto 0;
 			width: 100%;
 			max-width: 329px;
-			height: 43px;
+			height: 64px;
 			border-radius: 21.5px;
 
 			a {
@@ -2912,7 +2912,7 @@ footer {
 
 .convention06 {
 	margin-top: 40px;
-	padding-bottom: 44px;
+	padding-bottom: 32px;
 	overflow: hidden;
 
 	h2 {
@@ -2931,7 +2931,7 @@ footer {
 	}
 
 	.lists {
-		margin: 40px auto 0;
+		margin: 28px auto 0;
 
 		li {
 			font-size: 18px;
@@ -2947,18 +2947,47 @@ footer {
 				line-height: 1.9;
 			}
 		}
+		.address {
+			p {
+				font-size: 13.5px;
+				font-weight: 400;
+				line-height: calc(27 / 13.5);
+	
+				span {
+					font-size: 16.5px;
+					line-height: calc(27 / 16.5);
+				}
+			}
+		}
 	}
-
-	.txt {
-		margin-top: 28px;
-
+	.right_txt {
+		text-align: right;
+		margin: 40px auto 0;
 		p {
-			font-size: 20px;
-			font-weight: bold;
-			text-align: center;
+			font-size: 13.5px;
 		}
 	}
 
+	.box {
+		padding: 28px 0;
+		border-bottom: 1px solid #E1E2E3;
+		max-width: 1080px;
+		margin: 0 auto;
+		
+		.txt {
+			p {
+				font-size: 20px;
+				font-weight: bold;
+				text-align: center;
+			}
+		}
+
+		p {
+			font-size: 13.5px;
+			font-weight: 400;
+			line-height: calc(27 / 13.5);
+		}
+	}
 	.cv_btn {
 		margin: 24px auto 0;
 		width: 100%;

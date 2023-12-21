@@ -34,15 +34,6 @@ html {
   line-height: 2;
 }
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -54,8 +45,7 @@ html {
 body {
   color: #154734;
   background: #fffeff;
-  -webkit-animation: fadeIn 1.5s ease 0s 1 normal;
-          animation: fadeIn 1.5s ease 0s 1 normal;
+  animation: fadeIn 1.5s ease 0s 1 normal;
 }
 
 @media screen and (min-width: 1680px) {
@@ -157,20 +147,16 @@ section,
 .objectCover {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 50% 50%;
-     object-position: 50% 50%;
+  object-fit: cover;
+  object-position: 50% 50%;
   font-family: "object-fit: cover;object-position: 50% 50%;";
 }
 
 .objectContain {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: 50% 50%;
-     object-position: 50% 50%;
+  object-fit: contain;
+  object-position: 50% 50%;
   font-family: "object-fit: contain;object-position: 50% 50%;";
 }
 
@@ -362,16 +348,6 @@ footer .copyright {
 //            ▼ トップ01 ▼
 //
 ///////////////////////////////////////////////////*/
-@-webkit-keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 @keyframes fadeUp {
   0% {
     opacity: 0;
@@ -408,8 +384,7 @@ footer .copyright {
   position: relative;
   z-index: 1;
   padding-top: 64px;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .top01 .mv01 .txt h2,
 .top01 .mv02 .txt h2 {
@@ -429,8 +404,7 @@ footer .copyright {
 }
 .top01 .mv01 figure,
 .top01 .mv02 figure {
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .top01 .mv01 .cv_btn,
 .top01 .mv02 .cv_btn {
@@ -699,8 +673,7 @@ footer .copyright {
   position: relative;
   z-index: 1;
   padding-top: 64px;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .lower_mv .lower_mv_inner .txt h1 {
   font-size: 28px;
@@ -721,8 +694,7 @@ footer .copyright {
 }
 .lower_mv .lower_mv_inner figure {
   position: absolute;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .lower_mv .lower_mv_inner .cv_btn {
   margin-top: 26px;
@@ -1343,8 +1315,7 @@ footer .copyright {
 }
 .contact02 form select {
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   background-image: url(../images/common/chevron-down-solid.svg);
   background-position: right 16px center;
   background-repeat: no-repeat;
@@ -1388,9 +1359,6 @@ footer .copyright {
 }
 .contact02 form .checkbox_input:checked + .checkbox_parts::after {
   opacity: 1;
-}
-.contact02 form ::-moz-placeholder {
-  color: #001e62;
 }
 .contact02 form ::placeholder {
   color: #001e62;
@@ -2093,8 +2061,7 @@ footer .copyright {
   z-index: 1;
   padding-top: 64px;
   text-align: center;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .convention01 .mv .txt h2 {
   font-size: 42px;
@@ -2118,15 +2085,13 @@ footer .copyright {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .convention01 .mv figure img {
   width: auto;
   height: 100%;
   aspect-ratio: 1920/510;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /*///////////////////////////////////////////////////
@@ -2206,8 +2171,7 @@ footer .copyright {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  -moz-column-gap: 42px;
-       column-gap: 42px;
+  column-gap: 42px;
 }
 .convention03 .item {
   background: #fbe5d6;
@@ -2376,8 +2340,7 @@ footer .copyright {
   font-size: 21px;
   display: flex;
   align-items: baseline;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 .convention04 .content h4::before {
   content: "";
@@ -2397,8 +2360,7 @@ footer .copyright {
 }
 .convention04 .content .txt_box ul li {
   display: flex;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
   font-size: 21px;
 }
 .convention04 .content .txt_box ul li::before {
@@ -2468,8 +2430,7 @@ footer .copyright {
   font-size: 21px;
   display: flex;
   align-items: baseline;
-  -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 .convention05 .content h4::before {
   content: "";
@@ -2486,16 +2447,14 @@ footer .copyright {
 }
 .convention05 .content .txt_box ul {
   display: flex;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
 }
 .convention05 .content .txt_box ul + ul {
   margin-top: 16px;
 }
 .convention05 .content .txt_box ul li {
   display: flex;
-  -moz-column-gap: 5px;
-       column-gap: 5px;
+  column-gap: 5px;
   font-size: 18px;
 }
 .convention05 .content .txt_box ul li::before {
@@ -2520,7 +2479,7 @@ footer .copyright {
 .convention05 .content .cv_btn {
   margin: 44px auto 0;
   width: 450px;
-  height: 56px;
+  height: 73px;
   border-radius: 28px;
 }
 .convention05 .content .cv_btn a {
@@ -2536,7 +2495,7 @@ footer .copyright {
 ///////////////////////////////////////////////////*/
 .convention06 {
   margin-top: 48px;
-  padding-bottom: 78.2px;
+  padding-bottom: 41px;
 }
 .convention06 h2 {
   font-size: 36px;
@@ -2549,8 +2508,22 @@ footer .copyright {
 .convention06 .plan {
   margin-top: 52px;
 }
+.convention06 .box {
+  padding: 60px 0 52px;
+  border-bottom: 1px solid #E1E2E3;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.convention06 .box + .box {
+  padding: 48px 0;
+}
+.convention06 .box p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.5238095238;
+}
 .convention06 .lists {
-  margin: 100px auto 0;
+  margin: 48px auto 0;
   max-width: 1080px;
   display: flex;
   justify-content: space-between;
@@ -2563,6 +2536,16 @@ footer .copyright {
   display: block;
   font-size: 21px;
   line-height: 1.9;
+}
+.convention06 .address p {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.5238095238;
+  text-align: right;
+}
+.convention06 .address p span {
+  font-size: 26px;
+  line-height: 1.3461538462;
 }
 .convention06 .txt {
   margin-top: 44px;
@@ -2581,3 +2564,13 @@ footer .copyright {
 .convention06 .cv_btn a {
   font-size: 16px;
 }
+.convention06 .right_txt {
+  text-align: right;
+  margin: 60px auto 0;
+  max-width: 1080px;
+}
+.convention06 .right_txt p {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=desktop.css.map */
