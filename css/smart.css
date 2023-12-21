@@ -27,14 +27,6 @@
   src: url(../fonts/ASICSFont3.0-Italic.ttf) format("truetype");
   font-display: swap;
 }
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -47,8 +39,7 @@ body {
   -webkit-text-size-adjust: 100%;
   color: #001e62;
   background: #fffeff;
-  -webkit-animation: fadeIn 1.5s ease 0s 1 normal;
-          animation: fadeIn 1.5s ease 0s 1 normal;
+  animation: fadeIn 1.5s ease 0s 1 normal;
 }
 
 html {
@@ -118,20 +109,16 @@ section,
 .objectCover {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 50% 50%;
-     object-position: 50% 50%;
+  object-fit: cover;
+  object-position: 50% 50%;
   font-family: "object-fit: cover;object-position: 50% 50%;";
 }
 
 .objectContain {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-  -o-object-position: 50% 50%;
-     object-position: 50% 50%;
+  object-fit: contain;
+  object-position: 50% 50%;
   font-family: "object-fit: contain;object-position: 50% 50%;";
 }
 
@@ -355,16 +342,6 @@ footer .copyright {
 //            ▼ トップ01 ▼
 //
 ///////////////////////////////////////////////////*/
-@-webkit-keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 @keyframes fadeUp {
   0% {
     opacity: 0;
@@ -389,8 +366,7 @@ footer .copyright {
   position: relative;
   z-index: 1;
   padding-top: 50px;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .top01 .mv01 .txt h2,
 .top01 .mv02 .txt h2 {
@@ -420,8 +396,7 @@ footer .copyright {
 }
 .top01 .mv01 figure,
 .top01 .mv02 figure {
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .top01 .mv01 .cv_btn,
 .top01 .mv02 .cv_btn {
@@ -672,8 +647,7 @@ footer .copyright {
   position: relative;
   z-index: 1;
   padding-top: 40px;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .lower_mv .lower_mv_inner .txt h1 {
   font-size: 17px;
@@ -697,8 +671,7 @@ footer .copyright {
 .lower_mv .lower_mv_inner figure {
   position: absolute;
   width: 103.74px;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .lower_mv .lower_mv_inner .cv_btn {
   margin-top: 14px;
@@ -1723,8 +1696,7 @@ footer .copyright {
 }
 .contact02 form select {
   -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
   background-image: url(../images/common/chevron-down-solid.svg);
   background-position: right 15px center;
   background-repeat: no-repeat;
@@ -1764,9 +1736,6 @@ footer .copyright {
 }
 .contact02 form .checkbox_input:checked + .checkbox_parts::after {
   opacity: 1;
-}
-.contact02 form ::-moz-placeholder {
-  color: #001e62;
 }
 .contact02 form ::placeholder {
   color: #001e62;
@@ -1926,17 +1895,14 @@ footer .copyright {
   position: absolute;
   top: 55px;
   left: 0;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .convention01 .mv figure img {
   width: auto;
   height: 100%;
   aspect-ratio: 1920/510;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 50% 0;
-     object-position: 50% 0;
+  object-fit: cover;
+  object-position: 50% 0;
 }
 
 /*///////////////////////////////////////////////////
@@ -2194,8 +2160,7 @@ footer .copyright {
   font-size: 16.5px;
   display: flex;
   align-items: baseline;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
 }
 .convention04 .content h4::before {
   content: "";
@@ -2211,8 +2176,7 @@ footer .copyright {
 }
 .convention04 .content .txt_box ul li {
   display: flex;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
   font-size: 15px;
 }
 .convention04 .content .txt_box ul li::before {
@@ -2279,8 +2243,7 @@ footer .copyright {
   font-size: 16.5px;
   display: flex;
   align-items: baseline;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
 }
 .convention05 .content h4::before {
   content: "";
@@ -2304,8 +2267,7 @@ footer .copyright {
 }
 .convention05 .content .txt_box ul li {
   display: flex;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -2332,7 +2294,7 @@ footer .copyright {
   margin: 20px auto 0;
   width: 100%;
   max-width: 329px;
-  height: 43px;
+  height: 64px;
   border-radius: 21.5px;
 }
 .convention05 .content .cv_btn a {
@@ -2348,7 +2310,7 @@ footer .copyright {
 ///////////////////////////////////////////////////*/
 .convention06 {
   margin-top: 40px;
-  padding-bottom: 44px;
+  padding-bottom: 32px;
   overflow: hidden;
 }
 .convention06 h2 {
@@ -2365,7 +2327,7 @@ footer .copyright {
   margin-right: calc(50% - 50vw);
 }
 .convention06 .lists {
-  margin: 40px auto 0;
+  margin: 28px auto 0;
 }
 .convention06 .lists li {
   font-size: 18px;
@@ -2379,13 +2341,37 @@ footer .copyright {
   font-size: 14px;
   line-height: 1.9;
 }
-.convention06 .txt {
-  margin-top: 28px;
+.convention06 .lists .address p {
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 2;
 }
-.convention06 .txt p {
+.convention06 .lists .address p span {
+  font-size: 16.5px;
+  line-height: 1.6363636364;
+}
+.convention06 .right_txt {
+  text-align: right;
+  margin: 40px auto 0;
+}
+.convention06 .right_txt p {
+  font-size: 13.5px;
+}
+.convention06 .box {
+  padding: 28px 0;
+  border-bottom: 1px solid #E1E2E3;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.convention06 .box .txt p {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
+}
+.convention06 .box p {
+  font-size: 13.5px;
+  font-weight: 400;
+  line-height: 2;
 }
 .convention06 .cv_btn {
   margin: 24px auto 0;
@@ -2397,3 +2383,5 @@ footer .copyright {
 .convention06 .cv_btn a {
   font-size: 13.5px;
 }
+
+/*# sourceMappingURL=smart.css.map */

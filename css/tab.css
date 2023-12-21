@@ -537,15 +537,13 @@ footer .footer_inner .copyright {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-animation: fadeUp 1.5s ease 0s 1 both;
-          animation: fadeUp 1.5s ease 0s 1 both;
+  animation: fadeUp 1.5s ease 0s 1 both;
 }
 .convention01 .mv figure img {
   width: auto;
   height: 100%;
   aspect-ratio: 1920/510;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /*///////////////////////////////////////////////////
@@ -588,8 +586,7 @@ footer .footer_inner .copyright {
 }
 .convention03 .box {
   margin-top: 30px;
-  -moz-column-gap: 15px;
-       column-gap: 15px;
+  column-gap: 15px;
 }
 .convention03 .item {
   padding: 15px 10px;
@@ -659,8 +656,7 @@ footer .footer_inner .copyright {
 .convention04 .content h4 {
   font-size: 18px;
   display: flex;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
 }
 .convention04 .content h4::before {
   width: 10px;
@@ -671,8 +667,7 @@ footer .footer_inner .copyright {
   margin-top: 15px;
 }
 .convention04 .content .txt_box ul li {
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
   font-size: 18px;
 }
 .convention04 .content .txt_box ul li::before {
@@ -721,8 +716,7 @@ footer .footer_inner .copyright {
 .convention05 .content h4 {
   font-size: 18px;
   display: flex;
-  -moz-column-gap: 8px;
-       column-gap: 8px;
+  column-gap: 8px;
 }
 .convention05 .content h4::before {
   width: 10px;
@@ -733,8 +727,7 @@ footer .footer_inner .copyright {
   margin-top: 15px;
 }
 .convention05 .content .txt_box ul {
-  -moz-column-gap: 25px;
-       column-gap: 25px;
+  column-gap: 25px;
 }
 .convention05 .content .txt_box ul + ul {
   margin-top: 10px;
@@ -774,13 +767,19 @@ footer .footer_inner .copyright {
   margin-top: 0;
 }
 .convention06 .lists {
-  margin-top: 0;
+  margin-top: 48px;
 }
 .convention06 .lists li {
-  font-size: 20px;
+  font-size: 19px;
 }
 .convention06 .lists li span {
   font-size: 16px;
+}
+.convention06 .address p {
+  font-size: 16px;
+}
+.convention06 .address p span {
+  font-size: 19px;
 }
 .convention06 .txt {
   margin-top: 44px;
@@ -799,3 +798,14 @@ footer .footer_inner .copyright {
 .convention06 .cv_btn a {
   font-size: 16px;
 }
+.convention06 .box {
+  padding: 50px 0 52px;
+}
+.convention06 .box p {
+  font-size: 18px;
+}
+.convention06 .right_txt p {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=tab.css.map */

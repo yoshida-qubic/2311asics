@@ -1154,11 +1154,20 @@ footer {
 	}
 
 		.lists {
-			margin-top: 0;
+			margin-top: 48px;
 			li {
-				font-size: 20px;
+				font-size: 19px;
 				span {
 					font-size: 16px;
+				}
+			}
+		}
+		.address {
+			p {
+				font-size: 16px;
+	
+				span {
+					font-size: 19px;
 				}
 			}
 		}
@@ -1179,5 +1188,16 @@ footer {
 				font-size: 16px;
 			}
 		}
-
+		.box {
+			padding: 50px 0 52px;
+	
+			p {
+				font-size: 18px;
+			}
+		}
+		.right_txt {
+			p {
+				font-size: 16px;
+			}
+		}
 	}
